@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grill.com</title>
+    <style>
+        body{
+            background-color: chocolate;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       
+        #navbar{
+           background-color: black;
+           padding: 0.01rem;
+           border: 5px solid black;
+         }
+        /* list styling */
+        #navbar ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right;
+        }
+        #navbar ul li a{
+            color: chocolate;
+            text-decoration: none;
+            padding: 20px;
+            display: block;
+            font-size: 20px;
+            
+        }
+        #navbar ul li a:hover{
+            background-color: chocolate ;
+            color: black;
+            text-decoration: underline;
+            border-radius: 25px;
+        }
+        #home{
+            display: flex;
+            flex-direction: column;
+            padding-left: 200px;
+            padding-right: 200px;
+            align-items: center;
+        }
+        .h-primary{
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+        .container{
+            margin: 100px 0 0 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            width:80% ;
+        }
+        .container img{
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid black;
+            transition: all ease-in-out 0.5s;
+        }
+        .container img:hover{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+   
+    <nav id="navbar">
+        <!-- Navbar -->
+        <div>
+            <ul>
+                <li id="item"><a href="Responsive-Website.html">Home</a></li>
+                <li id="item"><a href="menu.html">Menu</a></li>
+                <li id="item"><a href="about.html">About</a></li>
+                <li id="item"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        </nav><br><br>
+        <section id="home">
+            <h1 class="h-primary">Welcome to "The Grill"</h1> <br>
+            <p>Welcome to "The Grill", where we celebrate the irresistible world of fast food! From iconic burgers and pizza to the latest trending bites, our site is your go-to destination for everything fast, flavorful, and satisfying. Whether you're a foodie on the hunt for the best local spots or just curious about your favorite meals, we've got you covered with reviews, recipes, and much more. Dive in and explore the delicious side of life, one bite at a time!</p>
+        </section>
+        <div class="container">
+            <img src="Images/pizza.jpg" alt="">
+            <img src="Images/burger2.jpg" alt="">
+            <img src="Images/Pizza1.jpg" alt="">
+            <img src="Images/pasta2.jpg" alt="">
+            <img src="Images/burger.jpg" alt="">
+            <img src="Images/pasta.jpg" alt="">
+        </div>
+    
+</body>
+</html>

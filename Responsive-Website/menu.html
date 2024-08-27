@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #navbar{
+           background-color: chocolate;
+           padding: 0.01rem;
+           border: 5px solid chocolate;
+         }
+        #navbar ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right;
+        }
+        #navbar ul li a{
+            color: black;
+            text-decoration: none;
+            padding: 20px;
+            display: block;
+            font-size: 20px;
+            
+        }
+        #navbar ul li a:hover{
+            background-color: black;
+            color: chocolate;
+            text-decoration: underline;
+            border-radius: 25px;
+        }
+        h2{
+            display: flex;
+            color: chocolate;
+            justify-content: center;
+            font-size: 50px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 300px;
+        }
+        .content .card{
+            flex: 1;
+            margin: 30px 15px;
+            box-shadow: 0px 0px 2px 0px rgba(0,0,0,0,2);
+            border: 1px solid chocolate;
+        }
+        .content .card img{
+            width: 300px;
+            height: auto;
+        }
+        h4{
+            color: white;
+        }
+        button{
+            background-color: black;
+            color: white;
+        }
+        button:hover{
+            background-color: chocolate;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <ul>
+                <li id="item"><a href="Responsive-Website.html">Home</a></li>
+                <li id="item"><a href="menu.html">Menu</a></li>
+                <li id="item"><a href="about.html">About</a></li>
+                <li id="item"><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        </nav><br><br>
+        <h2>Our Menu</h2>
+        <div class="content">
+            <div class="card">
+                <img src="Images/burger.jpg" alt="">
+                <h4>Burger</h4>
+                <h4>Rs.300</h4>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="Images/Fried-Chicken2.jpg" alt="">
+                <h4>Fried Chicken</h4>
+                <h4>Rs.300</h4>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="Images/fries.jpg" alt="">
+                <h4>Fries</h4>
+                <h4>Rs.300</h4>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="Images/pasta2.jpg" alt="">
+                <h4>Pasta</h4>
+                <h4>Rs.300</h4>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="content">
+        <div class="card">
+            <img src="Images/deal1.jpg" alt="">
+            <h4>Deal-1 (Burger+Cold drink+Fries)</h4>
+            <h4>Rs.300</h4>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="Images/burger2.jpg" alt="">
+            <h4>Burger</h4>
+            <h4>Rs.300</h4>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="Images/resturant.jpg" alt="">
+            <h4>Deal-2 (Burger+Fries)</h4>
+            <h4>Rs.300</h4>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="Images/nuggets.jpg" alt="">
+            <h4>Nuggets</h4>
+            <h4>Rs.300</h4>
+            <button>Add to Cart</button>
+        </div>
+
+        </div>
+</body>
+</html>
